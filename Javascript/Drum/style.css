@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(images/background-image.jpg) no-repeat;
+	background-size: cover;
+
+}
+
+
+.keys{
+	text-align: center;
+	margin-top: 20%;
+}
+
+.key{
+	display: inline-block;
+	width: 4rem;
+	border: 3px solid black;
+	border-radius: .3rem;
+	padding: .5rem 1rem;
+	margin: 1rem;
+	color: white;
+  	background: rgba(0,0,0,0.4);
+  	transition: all .07s ease;
+}
+
+kbd{
+	font-size: 2.5rem;
+	display: block;
+}
+
+.sound{
+	font-size: .95rem;
+	color: #ffc600;
+}
+
+.playing{
+	transform: scale(1.2);
+	border-color:  #ffc600;
+	box-shadow: 0 0 1rem #ffc600;
+}
